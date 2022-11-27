@@ -10,7 +10,7 @@ $message = $_POST['message'];
 
 if(!empty($email) && !empty($message)){
     if(filter_var($email, FILTER_VALIDATE_EMAIL)){
-        $receptor = "elbenrique@gmail.com";
+        $receptor = "xxxx@gmail.com";
         $assunto = "From: $name <$email>";
         $corpo = "Nome: $name\nE-mail: $email\nTelefone: $phone\nWebsite: $website\nMessage: $message\n\nSaudações, $name";
         $enviador = "From: $email";
